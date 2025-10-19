@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - UKM UNESA</title>
+
+  <!-- File CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">UKM <span>UNESA</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="ukm-list.html">UKM List</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button id="darkModeToggle" class="dark-toggle">🌙</button>
+  </nav>
+
+  <!-- FORM KONTAK -->
+  <section class="content">
+    <h1>Hubungi Kami</h1>
+    <p>Ingin tahu lebih banyak tentang UKM UNESA? Kirim pesan melalui form berikut:</p>
+    
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="nama" placeholder="Nama Lengkap" required>
+      <input type="email" id="email" placeholder="Email Aktif" required>
+      <textarea id="pesan" rows="5" placeholder="Pesan Anda..." required></textarea>
+      <button type="submit" class="cta">Kirim Pesan</button>
+    </form>
+
+    <!-- Pesan sukses/error -->
+    <div id="formMessage" class="message"></div>
+  </section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- Kolom Kiri: Logo & Deskripsi -->
+    <div class="footer-about">
+      <img src="gambar/Logo.jpg" alt="Logo UNESA" class="footer-logo">
+      <h3>UKM <span>UNESA</span></h3>
+      <p>Pusat kegiatan mahasiswa Universitas Negeri Surabaya. 
+         Tempatnya mahasiswa berkembang, berkarya, dan berprestasi di berbagai bidang.</p>
+    </div>
+
+    <!-- Kolom Tengah: Navigasi Cepat -->
+    <div class="footer-links">
+      <h4>Navigasi Cepat</h4>
+      <ul>
+        <li><a href="index.html">🏠 Beranda</a></li>
+        <li><a href="about.html">ℹ️ Tentang</a></li>
+        <li><a href="ukm-list.html">📋 Daftar UKM</a></li>
+        <li><a href="contact.html">📞 Kontak</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolom Kanan: Kontak & Sosial -->
+    <div class="footer-contact">
+      <h4>Hubungi Kami</h4>
+      <p>Email: <a href="mailto:ukmcenter@unesa.ac.id">ukmcenter@unesa.ac.id</a></p>
+      <p>Telp: (031) 9944-1234</p>
+    </div>
+  </div>
+
+  <!-- Bawah Footer -->
+  <div class="footer-bottom">
+    <p>© 2025 <strong>UKM UNESA</strong> | Dikelola oleh Mahasiswa Berprestasi 💫</p>
+  </div>
+</footer>
+
+
+
+  <!-- File JavaScript eksternal -->
+  <script src="script.js"></script>
+</body>
+</html>
