@@ -15,20 +15,23 @@ Website ini terdiri dari beberapa halaman utama, yaitu:
 ---
 
 ## 🧱 Struktur Folder
+## 🧱 Struktur Folder
+```
 ukm-unesa/
 │
-├── index.html         → Halaman Beranda
-├── about.html         → Halaman Tentang / Kategori UKM
-├── ukm-list.html      → Halaman Daftar Lengkap UKM
-├── contact.html       → Halaman Kontak
+├── index.html          → Halaman Beranda
+├── about.html          → Halaman Tentang / Kategori UKM
+├── ukm-list.html       → Halaman Daftar Lengkap UKM
+├── contact.html        → Halaman Kontak
 │
-├── style.css          → File CSS utama untuk tampilan
-├── script.js          → File JavaScript utama (dark mode & interaksi)
-├── gaya.js            → File animasi tambahan (scroll & tombol top)
-├── carousel.js        → File JavaScript untuk galeri foto carousel
+├── style.css           → File CSS utama untuk tampilan dan layout
+├── script.js           → File JavaScript utama (dark mode, form, interaksi)
+├── gaya.js             → File animasi tambahan (scroll, tombol back-to-top)
+├── carousel.js         → File JavaScript untuk galeri foto UKM
 │
-├── gambar/            → Folder berisi gambar dan aset visual
-└── README.md          → Dokumentasi proyek ini
+├── gambar/             → Folder berisi seluruh gambar dan aset visual
+└── README.md           → Dokumentasi proyek ini
+```
 
 
 
