@@ -20,8 +20,8 @@ Website ini terdiri dari beberapa halaman utama, yaitu:
 ukm-unesa/
 │
 ├─ index.html          → Halaman Beranda
-├─ about.html          → Halaman Tentang / Kategori UKM
-├─ ukm-list.html       → Halaman Daftar Lengkap UKM
+├─ about.html          → Halaman Tentang berisi Kategori UKM
+├─ ukm-list.html       → Halaman Lengkap UKM berdasarkan setiap kategori
 ├─ contact.html        → Halaman Kontak
 │
 ├─ style.css           → File CSS utama untuk tampilan dan layout
@@ -30,5 +30,5 @@ ukm-unesa/
 ├─ carousel.js         → File JavaScript untuk galeri foto UKM
 │
 ├─ gambar/             → Folder berisi seluruh gambar dan aset visual
-└─ README.md           → Dokumentasi proyek ini
+└─ README.md           → Dokumentasi proyek
 ```
